@@ -1,12 +1,14 @@
-
-
+ 
+import './Nav.css';
 
 function Nav () {
 
     return (
-<>
-    <img src="../../public/Logo.svg" alt="Company Logo" />
+<>  
+    
     <ul className="navlinks">
+        <img src="../../public/Logo.svg" alt="Company Logo" width="400" height="100" />
+
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#menu">Menu</a></li>

@@ -1,21 +1,20 @@
 import { useState } from 'react'
-import Nav from './components/Nav'
-import Header from './components/Header'
-import Main from './components/Main'
-import Footer from './components/Footer'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+import Nav from './components/Nav'
+import HeroSection from './components/HeroSection'
+import HighLight from './components/HighLight'
+import Footer from './components/Footer'
+
+import './App.css'
+ 
+
+function App() { 
 
   return (
     <>
     <Nav />
-    <Header />
-    <Main />
+    <HeroSection />
+    <HighLight />
     <Footer />
     </>
   )

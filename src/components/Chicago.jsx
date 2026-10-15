@@ -1,6 +1,6 @@
 
-function Card(){
-    dishName = ""
+function Chicago(){
+    const dishName = ""
 
     return(
         <>
@@ -15,4 +15,4 @@ function Card(){
 
 }
 
-export default Card
+export default Chicago

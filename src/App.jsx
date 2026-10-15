@@ -1,36 +1,31 @@
-import { useState } from 'react'
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import { useState } from 'react' 
 
 
 import Nav from './components/Nav'
 import HeroSection from './components/HeroSection'
-import HighLight from './components/HighLight'
-import Footer from './components/Footer'
-import Testimonials from "./components/Testimonials" 
-import About from "./components/About" 
+import CustomersSay from "./components/CustomersSay" 
+import Homepage from "./components/Homepage" 
 
 import './App.css'
+import Booking from './components/Booking'
+import Chicago from "./components/Chicago"
  
 
 function App() { 
 
-  return (
-    <Router>
-      <Nav />
-        <Switch>
-          <Route path='/about'>
-            
-          </Route>
-        </Switch>
-      <Route path='/Nav' element={<Nav />} />
+  return ( 
+    <>
+      <Nav />  
+      <Booking />
       <HeroSection />
-      <HighLight />
-      <Testimonials/>
-      <About />
-      {/* <XNAV /> */}
-      <Footer />
-    </Router>
+      <Homepage />  
+
+      <CustomersSay/>
+      <Chicago />
+      </>
   )
 }
 
 export default App
+
+

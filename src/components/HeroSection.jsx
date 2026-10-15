@@ -1,6 +1,8 @@
-import "./heroSection.css" 
+
 
 // call to action page
+
+import Booking from "./Booking"
 
 
 function HeroSection(){
@@ -16,7 +18,7 @@ function HeroSection(){
         <p>{description}</p>
         <a href="#reservations">
             <button className="researchTable">Reserve a Table Now
-                <img src="../src/assets/icons_assets/Dish icon.svg" className="icon" alt="pic" />
+                <img src="../src/assets/icons_assets/Dish icon.svg" className="icon" alt="pic" width={100} />
             </button>
         </a>
     </>

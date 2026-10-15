@@ -1,5 +1,5 @@
 
-function About(){
+function Homepage(){
 
 return(
     "This is a great restaurant"
@@ -7,4 +7,4 @@ return(
 
 }
 
-export default About
+export default Homepage

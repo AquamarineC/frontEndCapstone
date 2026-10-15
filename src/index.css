@@ -4,5 +4,10 @@
     list-style: none; 
     color:#424242;   
     font-family: Arial, Helvetica, sans-serif;  
-    width: 1500px;   
+    width: 1400px;   
+}
+
+.researchTable img{
+    width: 400px;
+    height: 200px;
 }

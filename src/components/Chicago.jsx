@@ -5,7 +5,7 @@ function Chicago(){
     return(
         <>
         <button className="orderOnline"></button>
-            <h3>Title</h3>
+            <h3>Tit</h3>
             <p>Name of the Dish</p>
             <p>Dish description</p>
             <p>Price</p>

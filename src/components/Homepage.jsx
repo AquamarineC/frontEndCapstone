@@ -2,7 +2,7 @@
 function Homepage(){
 
 return(
-    "This is a great restaurant"
+    <p>"This is a great restaurant"</p>
 )
 
 }

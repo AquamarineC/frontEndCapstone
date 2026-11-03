@@ -2,25 +2,32 @@
 
 // call to action page
 
-import Booking from "./Booking"
-
+import Booking from "./BookingForm"
+import { Link } from "react-router"
 
 function HeroSection(){
     var name = "Little Lemon"
     var location = "Chicago" 
-    var description = "We are family owned restaurant dedicated to serve health food and supporting local business"
+    var description = " loremmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm We are family owned restaurant dedicated to serve health food and supporting local business "
 
 
     return (
     <>
-        <h1 className="">{name}</h1>
-        <p>{location}</p>
-        <p>{description}</p>
-        <a href="#reservations">
-            <button className="researchTable">Reserve a Table Now
-                <img src="../src/assets/icons_assets/Dish icon.svg" className="icon" alt="pic" width={100} />
+    <div className="">
+        <div className="container border">
+            <h1 className="">{name}</h1>
+            <p>{location}</p>
+            <p className="">{description}</p>
+        </div>
+        <Link to="/bookingpage">
+       
+            <button className="hover:cursor-pointer, bg-blue-200 rounded-2xl">
+                <img src="../src/assets/icons_assets/Dish icon.svg" className="icon" alt="pic"/>
+                <span>Reserve a table now</span>
             </button>
-        </a>
+
+         </Link>
+    </div>
     </>
     )
 }
